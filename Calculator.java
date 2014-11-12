@@ -8,7 +8,8 @@ public class Calculator extends Frame
 		this.setLayout(new BorderLayout());
 		
 		Panel p0=new Panel();
-		TextArea ta=new TextArea();
+		TextArea ta=new TextArea(2,20);
+		ta.setText("0");
 		p0.add(ta);
 		add(p0,BorderLayout.NORTH);
 		

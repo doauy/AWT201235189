@@ -8,7 +8,7 @@ public class CalLauncher extends JFrame
 	{
 		Calculator cc=new Calculator();
 		cc.setTitle("°è»ê±â");
-		cc.setSize(175,357);
+		cc.setSize(175,237);
 		cc.setVisible(true);
 	}
 }
