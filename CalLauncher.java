@@ -6,9 +6,11 @@ public class CalLauncher extends JFrame
 {
 	public static void main(String[] args)
 	{
-		Calculator cc=new Calculator();
-		cc.setTitle("계산기");
-		cc.setSize(175,237);
-		cc.setVisible(true);
+		Calculator c=new Calculator();
+		c.setTitle("계산기");
+		c.setSize(175,237);
+		c.setVisible(true);
+
+
 	}
 }
